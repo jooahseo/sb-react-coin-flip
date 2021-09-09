@@ -1,0 +1,10 @@
+.app{
+    text-align: center;
+}
+
+.btn{
+    margin:10px;
+    font-size:larger;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:azure;
+}
