@@ -1,5 +1,5 @@
 # Coin Flip 
-![Alt Text](/coin-flip/src/coin.gif)
+![How coin flip works](https://github.com/jooahseo/sb-react-coin-flip/blob/main/src/coin.gif?raw=true)
 
 This project built with ReactJS
 
