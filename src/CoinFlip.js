@@ -15,24 +15,24 @@ function CoinFlip(props) {
     const side = random < 0.50 ? head : tail;
     setCoinSide(side);
 
-    updateCount();
+    updateCount(side);
   }
 
-  const updateCount = () => {
+  const updateCount = (side) => {
     setCountFlip(countFlip + 1);
     if(countFlip >= 10){
       setCountFlip(0);
       setHeadCount(0);
       setTailCount(0);
     }else{
-      sideCount();
+      sideCount(side);
     }
   }
-  const sideCount = () => {
-    if(coinSide === head){
+  const sideCount = (side) => {
+    if(side === head){
       setHeadCount(headCount +1);
     }
-    if(coinSide === tail){
+    if(side === tail){
       setTailCount(tailCount +1);
     }
   }
