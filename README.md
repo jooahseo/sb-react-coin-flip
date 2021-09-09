@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Coin Flip 
+![Alt Text](/coin-flip/src/coin.gif)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project built with ReactJS
 
 ## Available Scripts
 
